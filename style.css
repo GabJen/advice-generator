@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
 
 :root {
     /*Primary colors*/
@@ -11,9 +11,56 @@
     --dark-blue: hsl(218, 23%, 16%)
 }
 
-body {
-    font-family: 'Manrope', sans-serif;
+* {
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--dark-blue);
+    font-size: 28px;
+}
+
+.card {
+    width: 90vw;
+    background-color: var(--dark-grayish-blue);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.3em .5em 0;
+    border-radius: 12px;
+}
+
+.card-title {
+    color: var(--neon-green);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.4em;
+    letter-spacing: 0.2em;
+}
+
+#advice {
+    color: var(--light-cyan);
+    font-size: 1em;
+    font-weight: 800;
+    text-align: center;
+}
+
+#dice {
+    background-color: var(--neon-green);
+    padding: 1.5em 1.5em 1.3em;
+    border: none;
+    border-radius: 50%;
+    transform: translateY(50%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
