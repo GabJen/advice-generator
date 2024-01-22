@@ -15,10 +15,21 @@
 
 <body>
 
-	<h1 class="advice-title">Advice #<span id="advice-id"></span></h1><!-- Advice ID goes here -->
+	<div class="card">
+		<h1 class="card-title">Advice #<span id="advice-id">000</span></h1><!-- Advice ID goes here -->
+		<p id="advice">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+			Sit velit accusantium nihil sequi voluptate itaque blanditiis similique, 
+			cumque ducimus quaerat libero autem nobis magni impedit tenetur laboriosam in tempora! Reiciendis!
+		</p>
 
-	<p class="advice-body">"<span id="advice"></span>"</p>
+		<img src="./images/pattern-divider-mobile.svg">
 
+		<button onclick="getAdvice()" id="dice">
+			<img src="./images/icon-dice.svg">
+		</button>
+	</div>
+	
 	<footer class="attribution">
 		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
 		Coded by <a href="#">Your Name Here</a>.
