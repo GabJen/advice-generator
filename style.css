@@ -60,6 +60,11 @@ body {
     border: none;
     border-radius: 50%;
     transform: translateY(50%);
+    cursor: pointer;
+}
+
+#dice:hover {
+    box-shadow: 0 0 2.5em var(--neon-green);
 }
 
 .attribution { 
