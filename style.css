@@ -18,15 +18,19 @@
 }
 
 body {
+    height: 95vh;
     font-family: 'Manrope', sans-serif;
     background-color: var(--dark-blue);
     font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card {
-    width: 90vw;
+    width: 97%;
     background-color: var(--dark-grayish-blue);
-    margin: auto;
+    margin: 25% auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
