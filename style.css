@@ -54,6 +54,14 @@ body {
     text-align: center;
 }
 
+.divider {
+    background: url("./images/pattern-divider-mobile.svg");
+    background-position: center;
+    width: 295px;
+    max-width: 100%;
+    height: 16px;
+}
+
 #dice {
     background-color: var(--neon-green);
     padding: 1.5em 1.5em 1.3em;
