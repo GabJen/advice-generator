@@ -18,7 +18,6 @@
 }
 
 body {
-    height: 95vh;
     font-family: 'Manrope', sans-serif;
     color: var(--light-cyan);
     background-color: var(--dark-blue);
@@ -31,7 +30,7 @@ body {
 .card {
     width: 97%;
     background-color: var(--dark-grayish-blue);
-    margin: 25% auto;
+    margin: 4em auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
