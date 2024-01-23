@@ -81,3 +81,15 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media screen and (min-width: 600px) {
+    .card {
+        max-width: 540px;
+        border-radius: 13px;
+    }
+
+    .divider {
+        background-image: url("./images/pattern-divider-desktop.svg");
+        width: 444px;
+    }
+}
