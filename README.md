@@ -42,6 +42,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- [Advice Slip JSON API](https://api.adviceslip.com/#object-slip)
 
 ### What I learned
 
