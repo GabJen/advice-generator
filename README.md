@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Responsive page, using Flexbox and Mobile-fist Workflow]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/responsive-page-using-flexbox-and-mobilefirst-workflow-jcpG5JIkx6))
+- Solution URL: [Responsive page, using Flexbox and Mobile-fist Workflow]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/responsive-page-using-flexbox-and-mobilefirst-workflow-jcpG5JIkx6)
 - Live Site URL: [Advice Generator](https://gabjen.github.io/advice-generator/)
 
 ## My process
