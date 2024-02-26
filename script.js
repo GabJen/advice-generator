@@ -9,7 +9,7 @@ const getAdvice = () => {
     fetch(url)
         .then(response => response.json())
         .then(json => displayResults(json))
-        .catch(error => console.error(`Algo deu errado:  ${error.message}`))
+        .catch(error => console.error(`Something went wrong:  ${error.message}`))
 }
 
 function displayResults(json) {
