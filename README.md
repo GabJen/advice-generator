@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-During this project, I was able to apply my basic knowledge of APIs, which I had acquired through online courses. I got a better understanding of how the `fetch()` command works - which is often used to search for URLs in the browser - and was able to use it in this project.
+During this project, I was able to apply my basic knowledge about API requests, which I had acquired through online courses. I got a better understanding of how the `fetch()` command works - which is often used to take data from an URL - and was able to use it in this project.
 
 ```javascript
 fetch(url)
@@ -68,7 +68,7 @@ function displayResults(json) {
 
 - I want to improve my skills in developing responsive pages using pure CSS. Although I'm not completely comfortable with this subject, I've noticed an improvement in my performance. My code is becoming cleaner and I'm using the Mobile-first Workflow approach.
 
-- I'm excited to improve my understanding of APIs, a subject that I'm not very familiar with. That's why I'd like to keep creating more projects that challenge me in this area. 
+- I'm excited to improve my understanding of APIs requests, a subject that I'm not very familiar with. That's why I'd like to keep creating more projects that challenge me in this area. 
 
 ### Useful resources
 
